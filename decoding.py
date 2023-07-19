@@ -6,4 +6,4 @@ msg_mat = np.array([[msg[i] for i in range(0, len(msg)//2)],[msg[i] for i in ran
 result_mat=np.dot(np.linalg.inv(pass_matrix), msg_mat)
 for i in result_mat:
     for j in i:
-        print(chr(round(j)), end="")
+        print(chr(abs(round(j))), end="")
