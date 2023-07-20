@@ -21,7 +21,7 @@ This Python script allows you to encrypt and decrypt a message using a 2x2 matri
 
 - Encoding
 ```bash
-Enter the sentence for encoding:
+Enter the sentence for  encoding:
 Hello, this is a secret message!
 Enter the password (of 4 numbers separated by space): 2 1 3 4
 
